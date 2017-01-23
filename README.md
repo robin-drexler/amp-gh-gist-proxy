@@ -2,7 +2,7 @@
 Embed github gists in amp-iframes
 
 ## What
-[amp](https://www.ampproject.org/) does not permit to embed external script files, let alone scripts that use syncronous document write.
+[amp](https://www.ampproject.org/) does not permit to embed external script files, let alone scripts that use synchronous document write.
 
 Therefore it's not easily possible to embed [github gists](https://gist.github.com/).
 amp allows you to embed iframes, though. Due to the nature of iframes however, amp is not able to figure out the size of an iframe automatically.
