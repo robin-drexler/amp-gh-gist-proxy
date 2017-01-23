@@ -26,8 +26,8 @@ function renderContentMarkup(content) {
 app.get('/', (req, res) => {
   let url = req.query.url;
 
-  if (!url.startsWith('https://gist.github.com/')) {
-    res.sendStatus(400);
+  if (!url || !url.startsWith('https://gist.github.com/')) {
+    return res.sendStatus(400);
   }
   url = url + '.pibb';
   fetch(url)
