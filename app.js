@@ -14,7 +14,7 @@ function renderContentMarkup(content) {
           window.parent.postMessage({
             sentinel: 'amp',
             type: 'embed-size',
-            height: document.body.scrollHeight
+            height: document.getElementsByClassName('gist')[0].clientHeight
           }, '*');
         </script>
     </body>
