@@ -38,5 +38,6 @@ app.get('/', (req, res) => {
 });
 
 
-app.listen(3002);
-console.log('http://localhost:3002');
+const port = process.argv[2] || 3002;
+app.listen(port);
+console.log('http://localhost:' + port);
