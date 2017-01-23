@@ -15,12 +15,12 @@ Clone this repo. There is no npm package (yet).
 ## Usage
 There is no hosted service yet, in order to use it you'd need to host it yourself.
 
-### starting the service 
+### Starting the service 
 ```cli
 $ npm start -- 8080 # 8080 is the port the server will listen to
 ```
 
-### using the proxy
+### Using the proxy
 
 ```cli
 curl https://yourproxydomain.com/?url=https://gist.github.com/robin-drexler/d4d167f1aa0bd94094e2
@@ -36,3 +36,7 @@ curl https://yourproxydomain.com/?url=https://gist.github.com/robin-drexler/d4d1
  <div overflow></div>
 </amp-iframe>
 ```
+
+### Real world example
+
+See it in use here: [https://www.robin-drexler.com/2015/07/07/overriding-default-browser-shortcuts/](https://www.robin-drexler.com/2015/07/07/overriding-default-browser-shortcuts/)
