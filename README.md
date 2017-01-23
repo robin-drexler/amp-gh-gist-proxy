@@ -31,7 +31,7 @@ curl https://yourproxydomain.com/?url=https://gist.github.com/robin-drexler/d4d1
 ```html
 <amp-iframe width="627" height="332"
    resizable
-   sandbox
+   sandbox="allow-scripts allow-same-origin"
    src="https://yourproxydomain.com/?url={{}}">
  <div overflow></div>
 </amp-iframe>
